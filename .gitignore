@@ -1,0 +1,70 @@
+# This .gitignore file is optimized for Unity projects
+
+# ========== Unity generated folders ==========
+[Lưu lại]
+!Assets/
+!ProjectSettings/
+!Packages/
+
+[Loại bỏ]
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+MemoryCaptures/
+
+# ========== IDE and editor settings ==========
+.vscode/
+.idea/
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+
+# ========== OS-specific files ==========
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# ========== Unity-specific files ==========
+*.unitypackage
+*.apk
+*.aab
+
+# ========== Visual Studio files ==========
+*.csproj
+*.unityproj
+*.sln
+*.sln.*
+*.vcxproj
+*.vcxproj.*
+*.sdf
+*.dbmdl
+
+# ========== Crash and debug ==========
+sysinfo.txt
+*.stacktrace
+
+# ========== Build artifacts ==========
+Build/
+Builds/
+*.exe
+*.app
+*.x86
+*.x86_64
+*.dmg
+*.ipa
+*.msi
+
+# ========== Other ==========
+*.log
+*.bak
